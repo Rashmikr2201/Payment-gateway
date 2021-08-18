@@ -1,0 +1,82 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+ }
+
+ header{
+    width: 100%; height: 100vh;
+    background-image: linear-gradient(rgba(245, 212, 212, 0.952), rgba(255, 147, 147, 0.856)), url('../img/pink.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: 100%; height: 15vh;
+    background: rgba(0,0,0,0.2);
+    color:black; display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+}
+
+.logo{
+    width: 25%; text-align: center; 
+}
+
+.menu{
+    width: 50%;
+    display: flex; justify-content: space-around;
+}
+
+.menu a {
+    width: 50%;
+    text-decoration: none; color:black;
+    font-weight: bold;
+}
+
+main{
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.centerdiv{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerdiv a{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+
+.centerdiv a i{
+    transition: all 0.3s linear;
+}
+
+.centerdiv a:hover i{
+    transform: scale(1.4);
+}
+
+.fa-linkedin{
+    color: #0097e6;
+} 
+.fa-globe{
+    color:#bd081c;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-twitter{
+    color: #0097e6;
+}
